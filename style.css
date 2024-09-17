@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 700px;
+    table-layout: fixed;
+}
+
+th,
+td {
+    padding: 10px 5px;
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.week-header {
+    background-color: #fde9d9;
+    color: #000000;
+    font-weight: bold;
+}
+
+#rep-goal {
+    border-right: none;
+}
+
+#rep-results {
+    border-left: none;
+}
+
+.bordered-row td,
+.bordered-row th {
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+
+#idk {
+    font-weight: bold;
+}
+
+.rating {
+    background-color: #00b0f0;
+    font-weight: bold;
+}
+
+tbody tr:not(.bordered-row) td {
+    border: none;
+}
+
+td span {
+    color: #000;
+}
+
+img {
+    height: 296px;
+    width: 700px;
+    display: flex;
+    flex: column;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
